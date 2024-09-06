@@ -4,31 +4,62 @@ body{
     background-image: url("https://images.unsplash.com/photo-1715690998800-11a9f523fa2f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
     background-blend-mode:soft-light;
+    font-family: monospace;
 
 }
 .headDiv{
     display: flex;
     flex-flow: column;
     align-items: center;  
+    text-shadow: 1px 1px 1px blue;
 
 }
 .doDish{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-size: 20pt;
+    padding-bottom: 25px;
 
 }
+.recCard{
+    display:flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-color: rgb(1, 46, 86);
+    border-width: auto;
+}
+.recCard ol{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+        text-align: center;
+    color:rgb(43, 226, 113);
+
+}
+
 .listI{
     display: flex;
     flex-direction: column;
     justify-items: center;
     text-align: center;
     font-weight:bolder;
-    
-    
+}
+.listI img:hover{
+    background-size: cover;
+    border-radius: 10px;
+    border-color: aliceblue;
+    border-style: solid;
 
 }
 .imgShape{
+    border-color: aliceblue;
+    border-radius: 50%;
+    border-width: 10px;
+    border-style: solid;
 
 }
 .mainCon{
