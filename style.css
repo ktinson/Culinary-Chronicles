@@ -12,6 +12,25 @@ body{
     align-items: center;  
 
 }
+.doDish{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.listI{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    font-weight:bolder;
+    
+    
+
+}
+.imgShape{
+
+}
 .mainCon{
 
 }
