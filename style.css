@@ -19,14 +19,41 @@ body{
     flex-direction: row;
     justify-content: space-around;
     font-size: 20pt;
+    padding-bottom: 25px;
 
 }
+.recCard{
+    display:flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-color: rgb(1, 46, 86);
+    border-width: auto;
+}
+.recCard ol{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+        text-align: center;
+    color:rgb(43, 226, 113);
+
+}
+
 .listI{
     display: flex;
     flex-direction: column;
     justify-items: center;
     text-align: center;
     font-weight:bolder;
+}
+.listI img:hover{
+    background-size: cover;
+    border-radius: 10px;
+    border-color: aliceblue;
+    border-style: solid;
+
 }
 .imgShape{
     border-color: aliceblue;
